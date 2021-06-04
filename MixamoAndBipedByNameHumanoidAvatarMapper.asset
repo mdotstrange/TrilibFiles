@@ -1,0 +1,639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d909fdfbc3544962bf4f49e526b1bad1, type: 3}
+  m_Name: MixamoAndBipedByNameHumanoidAvatarMapper
+  m_EditorClassIdentifier: 
+  stringComparisonMode: 0
+  CaseInsensitive: 1
+  BonesMapping:
+  - HumanBone: 10
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Head
+    - Head1
+    - head
+  - HumanBone: 9
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Neck
+    - Neck1
+    - neckLower
+  - HumanBone: 8
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Spine1
+    - Spine01
+    - chestLower
+  - HumanBone: 54
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Spine4
+    - Spine3
+    - Spine2
+    - Spine1
+    - chestUpper
+  - HumanBone: 7
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Spine
+    - abdomenLower
+  - HumanBone: 0
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - Hips
+    - Bip01
+    - hip
+    - Pelvis
+  - HumanBone: 11
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftShoulder
+    - L Clavicle
+    - L_Clavicle
+    - lCollar
+  - HumanBone: 13
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftArm
+    - L UpperArm
+    - L_UpperArm
+    - lShldrBend
+  - HumanBone: 15
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftForeArm
+    - L Forearm
+    - L_Forearm
+    - lForearmBend
+  - HumanBone: 17
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHand
+    - L Hand
+    - L_Hand
+    - LeftWrist
+    - lHand
+  - HumanBone: 12
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightShoulder
+    - R Clavicle
+    - R_Clavicle
+    - rCollar
+  - HumanBone: 14
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightArm
+    - R UpperArm
+    - R_UpperArm
+    - rShldrBend
+  - HumanBone: 16
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightForeArm
+    - R Forearm
+    - R_Forearm
+    - rForearmBend
+  - HumanBone: 18
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHand
+    - R Hand
+    - R_Hand
+    - RightWrist
+    - rHand
+  - HumanBone: 1
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftUpLeg
+    - L Thigh
+    - L_Thigh
+    - lThighBend
+  - HumanBone: 3
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftLeg
+    - L Calf
+    - L_Calf
+    - lShin
+  - HumanBone: 5
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftFoot
+    - L Foot
+    - L_Foot
+    - lFoot
+  - HumanBone: 19
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftToeBase
+    - L Toe0
+    - L_Toe0
+    - lToe
+  - HumanBone: 2
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightUpLeg
+    - R Thigh
+    - R_Thigh
+    - rThighBend
+  - HumanBone: 4
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightLeg
+    - R Calf
+    - R_Calf
+    - rShin
+  - HumanBone: 6
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightFoot
+    - R Foot
+    - R_Foot
+    - rFoot
+  - HumanBone: 20
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightToeBase
+    - R Toe0
+    - R_Toe0
+    - rToe
+  - HumanBone: 24
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandThumb1
+    - L Finger0
+    - L_Finger0
+    - lThumb1
+  - HumanBone: 25
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandThumb2
+    - L Finger01
+    - L_Finger01
+    - lThumb2
+  - HumanBone: 26
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandThumb3
+    - L Finger02
+    - L_Finger02
+    - lThumb3
+  - HumanBone: 27
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandIndex1
+    - L Finger1
+    - L_Finger1
+    - lIndex1
+  - HumanBone: 28
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandIndex2
+    - L Finger11
+    - L_Finger11
+    - lIndex2
+  - HumanBone: 29
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandIndex3
+    - L Finger12
+    - L_Finger12
+    - lIndex3
+  - HumanBone: 30
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandMiddle1
+    - L Finger2
+    - L_Finger2
+    - lMid1
+  - HumanBone: 31
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandMiddle2
+    - L Finger21
+    - L_Finger21
+    - lMid2
+  - HumanBone: 32
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandMiddle3
+    - L Finger22
+    - L_Finger22
+    - lMid3
+  - HumanBone: 33
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandRing1
+    - L Finger3
+    - L_Finger3
+    - lRing1
+  - HumanBone: 34
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandRing2
+    - L Finger31
+    - L_Finger31
+    - lRing2
+  - HumanBone: 35
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandRing3
+    - L Finger32
+    - L_Finger32
+    - lRing3
+  - HumanBone: 36
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandPinky1
+    - L Finger4
+    - L_Finger4
+    - lPinky1
+  - HumanBone: 37
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandPinky2
+    - L Finger41
+    - L_Finger41
+    - lPinky2
+  - HumanBone: 38
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - LeftHandPinky3
+    - L Finger42
+    - L_Finger42
+    - lPinky3
+  - HumanBone: 39
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandThumb1
+    - R Finger0
+    - R_Finger0
+    - rThumb1
+  - HumanBone: 40
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandThumb2
+    - R Finger01
+    - R_Finger01
+    - rThumb2
+  - HumanBone: 41
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandThumb3
+    - R Finger02
+    - R_Finger02
+    - rThumb3
+  - HumanBone: 42
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandIndex1
+    - R Finger1
+    - R_Finger1
+    - rIndex1
+  - HumanBone: 43
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandIndex2
+    - R Finger11
+    - R_Finger11
+    - rIndex2
+  - HumanBone: 44
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandIndex3
+    - R Finger12
+    - R_Finger12
+    - rIndex3
+  - HumanBone: 45
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandMiddle1
+    - R Finger2
+    - R_Finger2
+    - rMid1
+  - HumanBone: 46
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandMiddle2
+    - R Finger21
+    - R_Finger21
+    - rMid2
+  - HumanBone: 47
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandMiddle3
+    - R Finger22
+    - R_Finger22
+    - rMid3
+  - HumanBone: 48
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandRing1
+    - R Finger3
+    - R_Finger3
+    - rRing1
+  - HumanBone: 49
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandRing2
+    - R Finger31
+    - R_Finger31
+    - rRing2
+  - HumanBone: 50
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandRing3
+    - R Finger32
+    - R_Finger32
+    - rRing3
+  - HumanBone: 51
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandPinky1
+    - R Finger4
+    - R_Finger4
+    - rPinky1
+  - HumanBone: 52
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandPinky2
+    - R Finger41
+    - R_Finger41
+    - rPinky2
+  - HumanBone: 53
+    HumanLimit:
+      useDefaultValues: 1
+      min: {x: 0, y: 0, z: 0}
+      max: {x: 0, y: 0, z: 0}
+      center: {x: 0, y: 0, z: 0}
+      axisLength: 0
+    BoneNames:
+    - RightHandPinky3
+    - R Finger42
+    - R_Finger42
+    - rPinky3
